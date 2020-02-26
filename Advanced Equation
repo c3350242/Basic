@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(){
+   float x;
+   float y;
+   prinf("Enter a number:");
+   scanf("%f",&x);
+   y=2*(x*x)+8*x; //Remember * btw 2 & x
+   prinf("y:%f\n",y);
+   return 0;
+   }
