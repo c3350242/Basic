@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main();
+   float xn, xnm1=1, xnm2=3 //initial values in the sequence;
+   int n=3;// first known variable is 3;
+   printf("1 %f\n", xnm2);
+   printf("2 %f\n", xnm1);
+
+   while( (n<=8) && (xn<100) ){
+   xn=3*xnm1 + 2*nm2;
+   xnm2=xnm1;
+   xnm1=xn;
+   printf("%d %f\n, n, xn);
+   n++;
+  }
+ return 0;
+}
+
