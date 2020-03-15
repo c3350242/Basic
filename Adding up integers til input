@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+ {
+ int max, sum = 0, n = 1;
+ printf("Please enter a positive number: ");
+ scanf("%d", &max);
+ 
+ while(n <= max) {
+ sum += n;
+ n++;
+ }
+ 
+ printf("The sum of 1 to the number entered is: %d", sum);
+ return 0;
+}
