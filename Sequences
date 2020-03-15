@@ -7,7 +7,7 @@ int main();
    printf("2 %f\n", xnm1);
 
    while( (n<=8) && (xn<100) ){
-   xn=3*xnm1 + 2*nm2;
+   xn=3*xnm1 + 2*nm2; //formula 
    xnm2=xnm1;
    xnm1=xn;
    printf("%d %f\n, n, xn);
