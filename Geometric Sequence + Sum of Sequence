@@ -7,6 +7,8 @@ int main()
    int xn;
    int xnm1=x2;
    int n=2.0;
+   int totalSum
+   
    printf("%d\n", x1);
    printf("%d\n", x2);
    k=x2/x1;
@@ -17,7 +19,8 @@ int main()
    n++;
    xnm1=xn;
    }
-   printf("Sum of geometric series is %d\n, /*equation*/);
+   totalSum =pow(k,n)-x1
+   printf("Sum of geometric series is %d\n", totalSum);
    return 0;
 }
  
