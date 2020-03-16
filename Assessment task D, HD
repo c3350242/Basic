@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float x0 = 1.47, x1 = 0.14;
+    float xn, xnm1 = x1, xnm2 = x0;
+    float n=0.65;
+
+    printf("%f\n", x0);
+    printf("%f\n", x1);
+
+    while (n<9){
+        xn=0.8*xnm1-0.2*xnm2;
+        xnm2=xnm1;
+        xnm1=xn;
+        printf("%f\n", xn);
+        n++;
+    }
+    return 0;
+}
