@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main() 
+{
+    int a, b, q, r;
+    
+    printf("Enter value for a\n");
+    scanf("%d", &a);
+    printf("Enter value for b\n");
+    scanf("%d", &b);
+    if (b==0)
+    {
+        printf("ERROR");
+        return 0;
+    }else
+    {
+        q = a/b;
+        r = a%b;
+        printf("A divided by b %d", q);
+        printf("  and the remainder is %d\n", r);
+    }
+return 0;
+}
